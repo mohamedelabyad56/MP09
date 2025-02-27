@@ -5,12 +5,10 @@ import java.util.Random;
 public class EventJoc {
     private EntornJoc entorn;
 
-    // Constructor
     public EventJoc(EntornJoc entorn) {
         this.entorn = entorn;
     }
 
-    // Método para generar un nuevo elemento
     public ElementJoc generarElement() {
         Random rand = new Random();
         int x = rand.nextInt(entorn.getMidaAmpladaPantalla());
@@ -19,7 +17,6 @@ public class EventJoc {
         return new ElementJoc(x, y, z);
     }
 
-    // Método para verificar la colisión
     public boolean verificarColisio(ElementJoc e1, ElementJoc e2) {
         return e1.getPosicioX() == e2.getPosicioX() &&
                e1.getPosicioY() == e2.getPosicioY() &&

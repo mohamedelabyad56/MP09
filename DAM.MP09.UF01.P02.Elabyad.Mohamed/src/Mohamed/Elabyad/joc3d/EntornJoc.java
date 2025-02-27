@@ -3,9 +3,8 @@ package Mohamed.Elabyad.joc3d;
 public class EntornJoc {
     private int midaAmpladaPantalla;
     private int midaAlturaPantalla;
-    private int midaProfunditatPantalla; // Nueva propiedad
+    private int midaProfunditatPantalla;
 
-    // Constructor actualizado
     public EntornJoc(int amplada, int altura, int profunditat) {
         this.midaAmpladaPantalla = amplada;
         this.midaAlturaPantalla = altura;
