@@ -27,26 +27,24 @@ public class CompetEnrere extends Thread {
         this.inici = inici;
     }
 
-    // Sobreescriptura de toString()
     @Override
     public String toString() {
         return identificador + " - " + inici;
     }
 
-    // Sobreescriptura del mètode run() de Thread
+
     @Override
     public void run() {
         iniciarCompteEnrere();
     }
 
-    // Mètode privat per al compte enrere
     private void iniciarCompteEnrere() {
         int comptador = inici;
         while (comptador > 0) {
             System.out.println(this + " | Segon actual: " + comptador);
             comptador--;
             try {
-                Thread.sleep(1000); // Aturada d'1 segon
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
