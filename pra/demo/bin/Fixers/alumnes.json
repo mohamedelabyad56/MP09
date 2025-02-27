@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "marca": "Dell",
+    "model": "Inspiron",
+    "memoria": 16,
+    "discDur": 512,
+    "processador": "Intel i7"
+  },
+  {
+    "id": 2,
+    "marca": "HP",
+    "model": "Pavilion",
+    "memoria": 8,
+    "discDur": 256,
+    "processador": "AMD Ryzen 5"
+  },
+  {
+    "id": 3,
+    "marca": "Lenovo",
+    "model": "ThinkPad",
+    "memoria": 32,
+    "discDur": 1024,
+    "processador": "Intel i9"
+  }
+]

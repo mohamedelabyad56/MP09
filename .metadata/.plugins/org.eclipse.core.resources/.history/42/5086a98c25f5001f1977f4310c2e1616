@@ -1,0 +1,39 @@
+package Mohamed.Elabyad.joc3d;
+
+public class EntornJoc {
+    private int midaAmpladaPantalla;
+    private int midaAlturaPantalla;
+    private int midaProfunditatPantalla; // Nueva propiedad
+
+    // Constructor actualizado
+    public EntornJoc(int amplada, int altura, int profunditat) {
+        this.midaAmpladaPantalla = amplada;
+        this.midaAlturaPantalla = altura;
+        this.midaProfunditatPantalla = profunditat;
+    }
+
+    // Getters y setters para las propiedades
+    public int getMidaAmpladaPantalla() {
+        return midaAmpladaPantalla;
+    }
+
+    public void setMidaAmpladaPantalla(int amplada) {
+        this.midaAmpladaPantalla = amplada;
+    }
+
+    public int getMidaAlturaPantalla() {
+        return midaAlturaPantalla;
+    }
+
+    public void setMidaAlturaPantalla(int altura) {
+        this.midaAlturaPantalla = altura;
+    }
+
+    public int getMidaProfunditatPantalla() {
+        return midaProfunditatPantalla;
+    }
+
+    public void setMidaProfunditatPantalla(int profunditat) {
+        this.midaProfunditatPantalla = profunditat;
+    }
+}

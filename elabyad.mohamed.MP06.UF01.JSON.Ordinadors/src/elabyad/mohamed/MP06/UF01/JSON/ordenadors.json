@@ -1,0 +1,16 @@
+[
+  {
+    "marca": "Dell",
+    "model": "XPS 15",
+    "memoria": 16,
+    "discDur": 512,
+    "processador": "Intel i7"
+  },
+  {
+    "marca": "Apple",
+    "model": "MacBook Pro",
+    "memoria": 32,
+    "discDur": 1024,
+    "processador": "M1 Max"
+  }
+]

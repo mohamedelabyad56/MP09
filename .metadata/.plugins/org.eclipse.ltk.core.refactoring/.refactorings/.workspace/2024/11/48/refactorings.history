@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;elabyad.mohamed.MP06.UF01.JSON.Ordinadors&apos;" deleteContents="false" description="Delete resource &apos;elabyad.mohamed.MP06.UF01.JSON.Ordinadors&apos;" element1="/elabyad.mohamed.MP06.UF01.JSON.Ordinadors" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1732904188706"/>
+</session>

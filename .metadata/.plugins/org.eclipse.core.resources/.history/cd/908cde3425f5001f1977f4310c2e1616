@@ -1,0 +1,27 @@
+package Mohamed.Elabyad.joc3d;
+
+public class EntornJoc {
+    private int amplada;  // Ancho de la pantalla
+    private int altura;   // Altura de la pantalla
+    private int profunditat; // Profundidad de la pantalla
+
+    // Constructor
+    public EntornJoc(int amplada, int altura, int profunditat) {
+        this.amplada = amplada;
+        this.altura = altura;
+        this.profunditat = profunditat;
+    }
+
+    // Métodos getter
+    public int getMidaAmpladaPantalla() {
+        return amplada;
+    }
+
+    public int getMidaAlturaPantalla() {
+        return altura;
+    }
+
+    public int getMidaProfunditatPantalla() {
+        return profunditat;
+    }
+}

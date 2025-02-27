@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\wanom\DAM2\MP09\java\.metadata\.plugins\org.eclipse.jdt.core
+2870660002.index
+1865797976.index
+2518809588.index
